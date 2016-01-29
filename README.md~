@@ -16,11 +16,11 @@ How to configure
 
 2. Next go to Tomcat_home / config / tomcat-users.xml and add these users and roles as follow.
 
-	<user username="admin" password="admin" roles="manager-gui,admin gui,admin"/>
+	<!--<user username="admin" password="admin" roles="manager-gui,admin gui,admin"/>
 	<user username="hr" password="hr" roles="HROfficer"/>
 	<user username="mkt" password="mkt" roles="MarketingOfficer"/>
 	<user username="mktandhr" password="mktandhr" roles="HROfficer,MarketingOfficer"/>
-	<user username="other" password="other" roles="other"/>
+	<user username="other" password="other" roles="other"/>-->
 
 3. Then Start The Tomcat server and deploy the application.
 
