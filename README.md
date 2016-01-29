@@ -15,11 +15,7 @@ How to configure
 1. Go to your source code location where pom.xml is located by terminal and build the code using maven (mvn clean install). Then .War file will be crated inside the Target folder.
 
 2. Next go to Tomcat_home / config / tomcat-users.xml and add these users and roles as follow.
-	```xml
-<myxml>
-   <someElement />  
-</myxml>
-```
+
 	
 		<user username="admin" password="admin" roles="manager-gui,admin-gui,admin"/>
 		<user username="hr" password="hr" roles="HROfficer"/>
